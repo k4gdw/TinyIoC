@@ -16,14 +16,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Text.RegularExpressions;
 using System.Reflection;
 using TinyIoC.Tests.TestData;
 using TinyIoC.Tests.TestData.BasicClasses;
-using NestedInterfaceDependencies = TinyIoC.Tests.TestData.NestedInterfaceDependencies;
-using NestedClassDependencies = TinyIoC.Tests.TestData.NestedClassDependencies;
 
 #if !NETFX_CORE
 using Microsoft.VisualStudio.TestTools.UnitTesting;
